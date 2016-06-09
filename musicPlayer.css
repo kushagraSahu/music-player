@@ -1,0 +1,11 @@
+#box {
+	margin: auto;
+	text-align: center;
+}
+#box input {
+	margin: auto;
+}
+#name {
+	padding: 30px;
+	text-align: center;
+}

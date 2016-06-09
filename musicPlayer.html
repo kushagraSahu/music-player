@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>iMusic</title>
+	<script src="https://code.jquery.com/jquery-1.9.1.js"></script>
+	<script src = "musicPlayer.js" type="text/javascript"></script>
+	
+	 <script src="//cdnjs.cloudflare.com/ajax/libs/annyang/2.1.0/annyang.min.js"></script>
+    <script src="jquery-1.9.1.min.js"></script>
+
+</head>
+<body>
+	<div id = "box">
+		<input type="text"  id ="search"  value = "Search song by Artist & Song">
+		<button id = "btn">Play!</button>
+	</div>
+	<div><audio id="player" controls autoplay>
+  		<source src="" type="audio/mpeg">
+  	</div>
+  	<div id = "current_name">
+  	</div>
+  	Recently Played: 
+  	<div id = "playlist">
+
+  	</div>
+	<script>
+		function onBodyLoad(){
+			musicPlayer.init();
+		}
+		window.addEventListener('load',onBodyLoad);
+	</script>
+</body>
+</html>
